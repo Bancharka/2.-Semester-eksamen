@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.schneider-header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.tabs {
+    display: flex;  
+    height: 100%;
+    width: 380px;
+    align-items: end;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+#proffesionel-tab {
+    background-color: #3DCD58;
+    height: 35px;
+    width: 174px;
+    display: flex;
+    align-items: end;
+    border-radius: 5px 5px 0px 0px; 
+    padding: 0px 5px 0px 5px;
+}
+
+#privat-tab {
+    background-color: #C7C7C7;  
+    height: 35px;
+    width: 174px;
+    display: flex;
+    align-items: end;
+    border-radius: 5px 5px 0px 0px; 
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+}
