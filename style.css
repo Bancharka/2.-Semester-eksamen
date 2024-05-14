@@ -1,9 +1,12 @@
+/* Generel css elementer start */
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "roboto";
+}
 
 
-
-
-
-
+/* Generel css elementer slut*/
 
 header {
     display: flex;
@@ -60,7 +63,7 @@ header {
     padding: 0px 5px 0px 5px;
     cursor: pointer;
     justify-content: center; 
-    font-family: "roboto"   ;
+    font-family: "roboto";
     color: white;
 }
 
@@ -94,3 +97,9 @@ nav li {
     font-family: "roboto";
     
 }
+
+/* Footer start*/
+
+
+/* Footer slut*/
+
