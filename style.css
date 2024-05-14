@@ -98,5 +98,22 @@ nav li {
     
 }
 
+/* Her slutter header */
+
+/* Her starter banner i top */
+
+#banner-top {
+    position: relative;
+}
+
+#white-blok {
+    position: absolute;
+    clip-path: ellipse(50% 20% at 50% 100%);
+    bottom:0  ; 
+}
+
+
+
+/* Footer start*/
 
 
