@@ -16,6 +16,17 @@ header {
     height: 50px;
 }
 
+#lk-logo-header {
+    max-width: 175px;
+    display: flex;
+    align-items: center;    
+}
+
+#schneider-logo-header img {
+    max-height: 50px;   
+    
+}
+
 .tabs {
     display: flex;  
     height: 100%;
@@ -80,7 +91,6 @@ nav ul {
 
 nav li {
     justify-content: space-between;
-    margin: 0px 10px 0px 10px;
     font-family: "roboto";
     
 }
