@@ -1,0 +1,57 @@
+/* Generel css elementer start */
+p{
+    font-size: 8;
+    font-family: "roboto";
+    font-weight: 300;
+}
+
+/* footer start */
+.footer-oversigt{
+    background-color: #E7E6E6;   
+}
+
+.footer-oversigt h3{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "roboto";
+    color: #41923E;
+}
+
+.footer-oversigt {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container {
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.tilmeld-footer-knap {
+    background-color: #42B4E6; 
+    color: white; 
+    border: none; 
+    padding: 8px 30px; 
+    text-align: center; 
+    font-size: 16px; 
+    font-family: "roboto";
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 6px; 
+    transition: background-color 0.3s ease;
+}
+
+.tilmeld-footer-knap:hover {
+    box-shadow: 5px 10px 15px #888888;
+}
+
+.a-s-footer{
+    font-weight: 500;
+}
+
+.tel-footer{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* footer slut */
