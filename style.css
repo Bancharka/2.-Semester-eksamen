@@ -152,6 +152,128 @@ nav li {
 }
 
 
+/* Styling af telefon kontakt sektionen start */
+
+.telefon-kontakt {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    
+}
+
+.telefon-kontakt h2 {
+    color: #3DCD58;
+    text-align: center;
+}
+
+.telefon-kontakt a {
+    padding: 10px 20px 10px 20px;   
+    background-color: #41B4E6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.382);
+}
+
+.telefon-section {
+    display: flex;
+    justify-content: center;
+}
+
+#stefan-support img {
+    border-radius: 5px;
+}
+
+#ring-nu-knap {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+/* footer start */
+footer{
+    position: relative;
+    margin-top: 100px;
+}
+
+.hvid-blok {
+    position: absolute;
+    clip-path: ellipse(60% 60% at 50% 2%);
+    top: 0;
+}
+
+.footer-oversigt{
+    background-color: #E7E6E6;   
+}
+
+.footer-oversigt h3{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "roboto";
+    color: #41923E;
+}
+
+.footer-oversigt {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.footer-container {
+    padding: 20px;
+    margin-left: 8px;
+}
+
+.tilmeld-footer-knap {
+    background-color: #42B4E6; 
+    color: white; 
+    border: none; 
+    padding: 8px 30px; 
+    text-align: center; 
+    font-size: 16px; 
+    font-family: "roboto";
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 6px; 
+    transition: 0.3s ease;
+}
+
+.tilmeld-footer-knap:hover {
+    box-shadow: 5px 10px 15px #888888;
+}
+
+.a-s-footer{
+    font-weight: 500;
+}
+
+.tel-footer{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-telefon{
+    display: none;
+    background-color: #E7E6E6;
+}
+
+.footer-police{
+    background-color: #3DCD58;
+    padding: 10px 0px 10px 20px;
+}
+
+.underline-footer{
+    text-decoration: underline;
+}
+
+.footer-police p {
+    color: white;
+}
+
+.footer-police-kasse{
+    padding: 3px;
+}
+/* footer slut */
+
+
+/* MEDIA QUERIES START */
 /* Her styles header og nav med media til mobil */
 @media (max-width:800px) {
 
@@ -192,43 +314,43 @@ nav li {
 }
 /* Her slutter styling af header og nav med media til mobil */
 
+/* Media queries footer start */
+@media only screen and (min-width: 768px) {
 
+    .hvid-blok {
+        clip-path: ellipse(50% 20% at 50% 2%);
+    }
+    .footer-oversigt {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 
-/* Styling af telefon kontakt sektionen */
+    .footer-container{
+        margin-left: 0px;
+    }
 
-.telefon-kontakt {
-    display: flex;
-    flex-direction: column;
-    max-width: 80%;
-    
+    #footer-telefon-mobil{
+        display: none;
+    }
+
+    .footer-telefon{
+        display: flex;
+        flex-direction: column;
+        padding-left: 21.5%;
+        padding-bottom: 10px;
+    }
+
+    .footer-police{
+        display: flex;
+        flex-direction: row;
+        padding-left: 21.5%;
+        padding-right: 21.5%;
+        justify-content: space-between;
+    }
 }
-
-.telefon-kontakt h2 {
-    color: #3DCD58;
-    text-align: center;
-}
-
-.telefon-kontakt a {
-    padding: 10px 20px 10px 20px;   
-    background-color: #41B4E6;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.382);
-}
-
-.telefon-section {
-    display: flex;
-    justify-content: center;
-}
-
-#stefan-support img {
-    border-radius: 5px;
-}
-
-#ring-nu-knap {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-
-}
+/* Media queries footer Slut */
 
 
 
@@ -252,8 +374,4 @@ nav li {
 
 
 
-
-
-
-/* Footer start*/
 

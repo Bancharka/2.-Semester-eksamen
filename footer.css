@@ -1,11 +1,22 @@
 /* Generel css elementer start */
 p{
-    font-size: 8;
     font-family: "roboto";
     font-weight: 300;
+    color: #626469;
 }
 
 /* footer start */
+footer{
+    position: relative;
+    margin-top: 100px;
+}
+
+.hvid-blok {
+    position: absolute;
+    clip-path: ellipse(60% 60% at 50% 2%);
+    top: 0;
+}
+
 .footer-oversigt{
     background-color: #E7E6E6;   
 }
@@ -20,11 +31,12 @@ p{
 .footer-oversigt {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
 }
 
 .footer-container {
-    margin-right: 20px;
     padding: 20px;
+    margin-left: 8px;
 }
 
 .tilmeld-footer-knap {
@@ -54,4 +66,65 @@ p{
     cursor: pointer;
 }
 
+.footer-telefon{
+    display: none;
+    background-color: #E7E6E6;
+}
+
+.footer-police{
+    background-color: #3DCD58;
+    padding: 10px 0px 10px 20px;
+}
+
+.underline-footer{
+    text-decoration: underline;
+}
+
+.footer-police p {
+    color: white;
+}
+
+.footer-police-kasse{
+    padding: 3px;
+}
 /* footer slut */
+
+
+/* MEDIA QUERIES START */
+/* Media queries footer start */
+@media only screen and (min-width: 768px) {
+
+    .hvid-blok {
+        clip-path: ellipse(50% 20% at 50% 2%);
+    }
+    .footer-oversigt {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .footer-container{
+        margin-left: 0px;
+    }
+
+    #footer-telefon-mobil{
+        display: none;
+    }
+
+    .footer-telefon{
+        display: flex;
+        flex-direction: column;
+        padding-left: 21.5%;
+        padding-bottom: 10px;
+    }
+
+    .footer-police{
+        display: flex;
+        flex-direction: row;
+        padding-left: 21.5%;
+        padding-right: 21.5%;
+        justify-content: space-between;
+    }
+}
+/* Media queries footer Slut */
