@@ -70,19 +70,22 @@ header {
 .lk-header {
     width: 100%;
     height: 60px;     
-    background-color: beige;
+    
 }
 
 .lk-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-top:solid 2px rgba(211, 211, 211, 0.282);
+    
 }
 
 nav {
     width: 100%;
     display: flex;
     align-items: center;
+    max-width: 900px;
 }
 
 nav ul {
@@ -96,6 +99,17 @@ nav li {
     justify-content: space-between;
     font-family: "roboto";
     
+}
+
+#profil-ikoner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#profil-ikoner img {
+    max-height: 40px;
+    margin-right: 5px;
 }
 
 /* Her slutter header */
