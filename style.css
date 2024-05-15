@@ -126,6 +126,40 @@ nav li {
     bottom:0  ; 
 }
 
+/* Her styles header og nav med media til mobil */
+@media (max-width:800px) {
+
+    #proffesionel-tab {
+        height: 35px;
+        width: 90px;
+        font-size: 14px;
+    }
+
+    #privat-tab {
+        height: 35px;
+        width: 90px;
+        font-size: 14px;
+    }
+    nav {
+        display: none;
+    }
+
+    .tabs {
+        width: 270px;
+    }
+
+    #schneider-logo-header {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    #sog-ikon {
+        display: none;
+    }
+
+
+}
 
 
 /* Footer start*/
