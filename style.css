@@ -158,6 +158,10 @@ nav li {
         display: none;
     }
 
+    #lk-logo-header {
+        max-width: 120px;
+    }
+
 
 }
 
