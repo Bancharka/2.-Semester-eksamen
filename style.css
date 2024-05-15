@@ -11,7 +11,7 @@ h2 {
     
 }
 
-h3{
+h3 {
     font-size: 20px;
     font-weight: 500;
     font-family: "roboto";
@@ -19,7 +19,8 @@ h3{
 
 p {
     font-family: "roboto";
-    font-size: 16px;
+    font-weight: 300;
+    color: #626469;
 }
 
 
@@ -189,7 +190,7 @@ nav li {
 }
 
 /* footer start */
-footer{
+footer {
     position: relative;
     margin-top: 100px;
 }
@@ -200,11 +201,11 @@ footer{
     top: 0;
 }
 
-.footer-oversigt{
+.footer-oversigt {
     background-color: #E7E6E6;   
 }
 
-.footer-oversigt h3{
+.footer-oversigt h3 {
     font-size: 15px;
     font-weight: 500;
     font-family: "roboto";
@@ -240,26 +241,26 @@ footer{
     box-shadow: 5px 10px 15px #888888;
 }
 
-.a-s-footer{
+.a-s-footer {
     font-weight: 500;
 }
 
-.tel-footer{
+.tel-footer {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.footer-telefon{
+.footer-telefon {
     display: none;
     background-color: #E7E6E6;
 }
 
-.footer-police{
+.footer-police {
     background-color: #3DCD58;
     padding: 10px 0px 10px 20px;
 }
 
-.underline-footer{
+.underline-footer {
     text-decoration: underline;
 }
 
@@ -267,7 +268,7 @@ footer{
     color: white;
 }
 
-.footer-police-kasse{
+.footer-police-kasse {
     padding: 3px;
 }
 /* footer slut */
@@ -288,6 +289,7 @@ footer{
         width: 90px;
         font-size: 14px;
     }
+
     nav {
         display: none;
     }
@@ -310,15 +312,15 @@ footer{
         max-width: 120px;
     }
 
-
 }
+
 /* Her slutter styling af header og nav med media til mobil */
 
 /* Media queries footer start */
 @media only screen and (min-width: 768px) {
 
     .hvid-blok {
-        clip-path: ellipse(50% 20% at 50% 2%);
+        clip-path: ellipse(50% 12% at 50% 2%);  
     }
     .footer-oversigt {
         flex-direction: row;
