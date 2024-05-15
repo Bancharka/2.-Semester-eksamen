@@ -168,9 +168,13 @@ nav li {
 }
 
 .telefon-kontakt a {
-    padding: 10px 20px 10px 20px;   
+    padding: 10px 30px 10px 30px;   
     background-color: #41B4E6;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.382);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.292);
+    font-family: "roboto";
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;        
 }
 
 .telefon-section {
@@ -188,6 +192,31 @@ nav li {
     margin-top: 10px;
 
 }
+
+/* Styling af telefon kontakt sektionen slut */
+
+/* Styling af kontaktformular sektionen start */
+
+#kontakformular-section {
+    background-color:#41923E;
+    height: 500px;
+    margin-top: 50px;
+}
+
+
+/* Styling af kontaktformular sektionen slut */
+
+/* Styling af resterende-kontaktmuligheder sektionen start */
+
+#resterende-kontaktmuligheder {
+    
+}
+
+
+/* Styling af resterende-kontaktmuligheder sektionen slut */
+
+
+
 
 /* footer start */
 footer {
