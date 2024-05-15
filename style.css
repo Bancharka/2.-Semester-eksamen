@@ -1,13 +1,31 @@
 /* Generel css elementer start */
-h3{
+
+h1 {
+    
+}
+
+h2 {
     font-size: 30px;
+    font-family: "roboto";
+    font-weight: 500;
+    
+}
+
+h3{
+    font-size: 20px;
     font-weight: 500;
     font-family: "roboto";
+}
+
+p {
+    font-family: "roboto";
+    font-size: 16px;
 }
 
 
 /* Generel css elementer slut*/
 
+/* her starter header */
 header {
     display: flex;
     flex-direction: column;
@@ -36,7 +54,7 @@ header {
     width: 380px;
     align-items: end;
     justify-content: space-between;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 #proffesionel-tab {
@@ -109,7 +127,7 @@ nav li {
 
 #profil-ikoner img {
     max-height: 40px;
-    margin-right: 5px;
+    margin-right: 8px;
 }
 
 /* Her slutter header */
@@ -122,9 +140,17 @@ nav li {
 
 #white-blok {
     position: absolute;
-    clip-path: ellipse(50% 20% at 50% 100%);
+    clip-path: ellipse(60% 60% at 50% 100%);
     bottom:0  ; 
 }
+#banner-top {
+    background-image: url(img/installation_el_to_mand-copy.png);
+    height: 225px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /* Her styles header og nav med media til mobil */
 @media (max-width:800px) {
@@ -164,8 +190,70 @@ nav li {
 
 
 }
+/* Her slutter styling af header og nav med media til mobil */
+
+
+
+/* Styling af telefon kontakt sektionen */
+
+.telefon-kontakt {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    
+}
+
+.telefon-kontakt h2 {
+    color: #3DCD58;
+    text-align: center;
+}
+
+.telefon-kontakt a {
+    padding: 10px 20px 10px 20px;   
+    background-color: #41B4E6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.382);
+}
+
+.telefon-section {
+    display: flex;
+    justify-content: center;
+}
+
+#stefan-support img {
+    border-radius: 5px;
+}
+
+#ring-nu-knap {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer start*/
-
 
