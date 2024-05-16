@@ -226,6 +226,10 @@ nav li {
     transition: 0.6s ease;
 }
 
+.telefon-kontakt-tekst {
+    padding-right:40px;
+}
+
 /* Slideshow container */
 .slideshow-medarbejder-container {
     max-width: 1000px;
@@ -279,6 +283,7 @@ nav li {
     font-family: "roboto";
   }
 
+
 /* Style medarbejder billeder */  
 .billeder_medarbejder img {
     width: 100%;
@@ -299,7 +304,7 @@ nav li {
     .slideshow-medarbejder-container {
         max-width: 70%;
         min-width: 50%;
-        padding-left: 50px;
+ 
     }
 }
 
