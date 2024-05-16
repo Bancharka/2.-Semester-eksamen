@@ -82,7 +82,7 @@
 
 #facebook-section {
     background-color: #41923E;
-    height: 880px;
+    height: 660px;  
     width: 100%;
     display: flex;
     align-items: center;
@@ -108,12 +108,16 @@
     text-align: center;
 }
 
+#fb-section-indhold h2 {
+    color: white;
+}
+
 #fb-section-p {
     max-width: 260px;
 }
 
 #fb-section-p p {
-    text-align: center;
+    text-align: start;
     color: white;
     font-weight: 400;
 }
