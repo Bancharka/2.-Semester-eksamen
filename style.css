@@ -41,7 +41,8 @@ header {
 #lk-logo-header {
     max-width: 175px;
     display: flex;
-    align-items: center;    
+    align-items: center;
+    margin-left: 20px;   
 }
 
 #schneider-logo-header img {
@@ -120,18 +121,52 @@ nav li {
     
 }
 
-#profil-ikoner {
+#header-ikoner {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: 20px;   
 }
 
-#profil-ikoner img {
+#header-ikoner img {
     max-height: 40px;
     margin-right: 8px;
 }
 
 /* her slutter header */
+
+/* søg funktion start */
+.dropdown-kontainer {
+    display: none;
+    position: absolute;
+    top: 110px;
+    right: 0;
+    background-color: #C7C7C7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-kontainer input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-family: "roboto";
+}
+
+.dropdown-kontainer input[type="text"]::placeholder {
+    font-family: "roboto";
+    color: white;
+} 
+
+.search-results{
+    font-family: "roboto";
+    color: white;
+}
+/* søg funktion slut */
 
 /* her starter banner i top */
 
@@ -324,7 +359,7 @@ footer {
     }
 
     .tabs {
-        width: 270px;
+        width: 190px;
     }
 
     #schneider-logo-header {
@@ -333,7 +368,7 @@ footer {
         align-items: center;
     }
 
-    #sog-ikon {
+    #profil-ikon {
         display: none;
     }
 
