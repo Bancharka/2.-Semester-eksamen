@@ -169,7 +169,7 @@ nav li {
 
 .telefon-kontakt a {
     padding: 10px 30px 10px 30px;   
-    background-color: #41B4E6;
+    background-color: #626469;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.292);
     font-family: "roboto";
     font-weight: 600;
@@ -182,14 +182,12 @@ nav li {
     justify-content: center;
 }
 
-#stefan-support img {
-    border-radius: 5px;
-}
+
 
 #ring-nu-knap {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 30px;
 
 }
 
