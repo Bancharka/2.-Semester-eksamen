@@ -15,11 +15,14 @@
 
 /* Her starter kodning af indhold til community siden */
 
+
+
+/* Her starter kodning til event card section */
 #event-card-section {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #3DCD58;
+    
 }
 
 .event-card {
@@ -29,12 +32,23 @@
     align-items: center;    
     background-color: #F7F7F7;
     box-shadow: 0px 5px 20px rgba(183, 183, 183, 0.811);
-    border-radius: 5px; 
+    border-radius: 5px;
+    margin-bottom: 30px; 
 }
 
 .event-card img {
     border-radius: 5px 5px 0px 0px ;
 }   
+
+.event-card h4 {
+    color: #888787; 
+}
+
+.event-card p {
+    color: #888787; 
+    font-weight: 400;
+    margin-top: 15px;
+}
 
 .beskrivende-tekst-event {
     display: flex;
@@ -45,21 +59,76 @@
 }
 
 .button-event {
-    padding: 10px 20px;
-    background-color: lightblue;
+    padding: 10px 20px; 
+    background-color: #41B4E6;
     border-radius: 5px;
     margin-top: 20px;   
     margin-bottom: 20px;
+    color: white;
+    font-family: "roboto";
 
 }
 
 .green-buffer-event {
     width: 100%;
     height: 10px;       
-    background-color: #3DCD58;   
+    background-color: #3DCD58;
+    border-radius: 0px 0px 5px 5px ;   
+}
+/* Her starter kodning til event card section */
+
+/* Her starter styling af facebook section */
+
+
+#facebook-section {
+    background-color: #41923E;
+    height: 880px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+#fb-section-billede {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: red;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#fb-section-indhold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+#fb-section-p {
+    max-width: 260px;
+}
+
+#fb-section-p p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+#facebook-section-knap {
+    padding: 10px 20px;
+    background-color: #41B4E6;
+    font-family: "roboto";
+    color: white;
+    margin-top: 20px;
 }
 
 
+
+/* Her slutter styling af facebook section */
 
 
 
