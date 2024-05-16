@@ -6,13 +6,15 @@
     <title>Schneider Electrics</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="community.css">
+    <script src="sog-funktion.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
 
-<!-- header start  -->
+<body>
+    <!-- header start  -->
     <header>
         <div class="schneider-header">
 
@@ -51,80 +53,111 @@
 
             </nav>
 
-            <div id="profil-ikoner">
-                <img src="img/ikoner/soeg-ikon.png" alt="Søge ikon">
-                <img id="sog-ikon" src="img/ikoner/mit-lk-ikon.png" alt="Profil ikon">
+            <div id="header-ikoner">
+                <img src="img/ikoner/soeg-ikon.png" alt="Søge ikon" id="sog-ikon">
+                <img id="profil-ikon" src="img/ikoner/mit-lk-ikon.png" alt="Profil ikon">
             </div>
-
+        
+            <div id="sog-dropdown" class="dropdown-kontainer">
+                <input type="text" id="sog-input" class="search-input" placeholder="Søg...">
+                <div id="search-results" class="search-results"></div>
+            </div>
         </div>
 
     </header>
 
-    <section id="banner-top">
+    <section id="banner-top-community">
         
-        <img id="white-blok" src="img/white-blok.gif" alt="">
-        <!-- <img id="banner-billede-sikkerhedsvest" src="img/installation_el_to_mand-copy.png" alt=""> -->
+        <img id="white-blok" src="img/white-blok.gif" alt="hvidt billede">
 
     </section>
 
-<!-- header slut  -->
 
-<!-- footer start  -->
-<footer>
-    <img class="hvid-blok" src="img/white-blok.gif" alt="Hvid blok, til styling">
-      
-    <div class="footer-oversigt">
-        <div class=footer-container>
-            <h3 class="kontakt-footer"> KONTAKT</h3>
-            <p>Kontakt os</p>
-            <p>Teknisk FAQ</p>
+    <section id="event-card-section">
+        <h2>Kommende events</h2>
+        <div class="event-card">
+            <div> <img src="img/Events/event9 copy.webp" alt="Billede af event"></div>
+            <div class="beskrivende-tekst-event">
+                <h3>Foredrag: Work-life balance</h3>
+                <h4>Harald nyborg Frederecia - 03.07.2024</h4>
+                <p>Kom og få indsigt i betydningen af arbejds-liv ved vores næste foredrag! Vi vil udforske strategier til at skabe harmoni mellem arbejde og personlige liv samt teknikker til stresshåndtering og selvpleje. Efter foredraget er der mulighed for at snakke med andre deltagere og nyde lækre forfriskninger.</p>
+            </div>
+            <div class="button-event"> <a href="#">Læs mere</a></div>
+            <div class="green-buffer-event"></div>
         </div>
 
-        <div class=footer-container>
-            <h3 class="kontakt-footer"> AKTUEL</h3>
-            <p>Nyheder</p>
-        </div>  
-
-        <div class=footer-container>
-            <h3 class="kontakt-footer"> NYHEDSBREV</h3>
-            <p>Fagspecifikke nyheder <br> direkte  i din indbakke</p>
-            <button class="tilmeld-footer-knap">Tilmeld</button>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
 
-        <div class=footer-container id="footer-telefon-mobil">
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </section>
+
+    <!-- header slut  -->
+
+    <!-- footer start  -->
+    <footer>
+        <img class="hvid-blok" src="img/white-blok.gif" alt="Hvid blok, til styling">
+        
+        <div class="footer-oversigt">
+            <div class=footer-container>
+                <h3 class="kontakt-footer"> KONTAKT</h3>
+                <p>Kontakt os</p>
+                <p>Teknisk FAQ</p>
+            </div>
+
+            <div class=footer-container>
+                <h3 class="kontakt-footer"> AKTUEL</h3>
+                <p>Nyheder</p>
+            </div>  
+
+            <div class=footer-container>
+                <h3 class="kontakt-footer"> NYHEDSBREV</h3>
+                <p>Fagspecifikke nyheder <br> direkte  i din indbakke</p>
+                <button class="tilmeld-footer-knap">Tilmeld</button>
+            </div>
+
+            <div class=footer-container id="footer-telefon-mobil">
+                <p class="a-s-footer">Schneider Electrics Danmark A/S</p>
+                <p>Lautrupvang 1, 2750 Ballerup, CVR: 70698714</p>
+                <br>
+                <p class="tel-footer"><a href="tel:+4512345678"> Tlf: +45 35 15 90 00</a></p>
+            </div>  
+        </div>
+
+        <div class=footer-telefon>
             <p class="a-s-footer">Schneider Electrics Danmark A/S</p>
             <p>Lautrupvang 1, 2750 Ballerup, CVR: 70698714</p>
             <br>
             <p class="tel-footer"><a href="tel:+4512345678"> Tlf: +45 35 15 90 00</a></p>
         </div>  
-    </div>
 
-    <div class=footer-telefon>
-        <p class="a-s-footer">Schneider Electrics Danmark A/S</p>
-        <p>Lautrupvang 1, 2750 Ballerup, CVR: 70698714</p>
-        <br>
-        <p class="tel-footer"><a href="tel:+4512345678"> Tlf: +45 35 15 90 00</a></p>
-    </div>  
+        <div class="footer-police">
+            <div class="footer-police-kasse">
+                <p>© Schneider Electric 2023</p>
+            </div>
 
-    <div class="footer-police">
-        <div class="footer-police-kasse">
-            <p>© Schneider Electric 2023</p>
+            <div class="footer-police-kasse">
+                <p><span class="underline-footer">Privatlivspolitik</span></p>
+            </div>
+
+            <div class="footer-police-kasse">
+                <p><span class="underline-footer">Cookiepolitik</span></p>
+            </div>
+
+            <div class="footer-police-kasse">
+                <p><span class="underline-footer">Vilkår for anvendelse og ophavsret</span></p>
+            </div>
         </div>
-
-        <div class="footer-police-kasse">
-            <p><span class="underline-footer">Privatlivspolitik</span></p>
-        </div>
-
-        <div class="footer-police-kasse">
-            <p><span class="underline-footer">Cookiepolitik</span></p>
-        </div>
-
-        <div class="footer-police-kasse">
-            <p><span class="underline-footer">Vilkår for anvendelse og ophavsret</span></p>
-        </div>
-    </div>
-</footer>
-<!-- footer slut  -->
+    </footer>
+    <!-- footer slut  -->
 
 
 </body>
