@@ -218,13 +218,14 @@ nav li {
 }
 
 
-
 #ring-nu-knap {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-
+    cursor: pointer;
+    transition: 0.6s ease;
 }
+
 /* Slideshow container */
 .slideshow-medarbejder-container {
     max-width: 1000px;
@@ -316,11 +317,25 @@ nav li {
 
 #ring-nu-knap a {
     background-color: #41B4E6;
+    
+}
+
+#ring-nu-knap-1{
+transition: 0.6s ease;
 }
 
 #ring-nu-knap-1 a {
     background-color: #41B4E6;
+    cursor: pointer;
 }
+
+#ring-nu-knap-1:hover a {
+    background-color: #41923Ecc;
+  }
+
+#ring-nu-knap:hover a {
+    background-color: #41923Ecc;
+  }
 
 /* styling af telefon kontakt sektionen slut */
 
@@ -339,9 +354,7 @@ nav li {
 
 /* styling af resterende-kontaktmuligheder sektionen start */
 
-#resterende-kontaktmuligheder {
-    
-}
+
 
 
 /* styling af resterende-kontaktmuligheder sektionen slut */
