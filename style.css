@@ -1,4 +1,4 @@
-/* Generel css elementer start */
+/* generel css elementer start */
 
 h1 {
     
@@ -24,7 +24,7 @@ p {
 }
 
 
-/* Generel css elementer slut*/
+/* generel css elementer slut*/
 
 /* her starter header */
 header {
@@ -131,9 +131,9 @@ nav li {
     margin-right: 8px;
 }
 
-/* Her slutter header */
+/* her slutter header */
 
-/* Her starter banner i top */
+/* her starter banner i top */
 
 #banner-top {
     position: relative;
@@ -151,9 +151,9 @@ nav li {
     background-position: center;
     background-size: cover;
 }
+/* her slutter banner i top */
 
-
-/* Styling af telefon kontakt sektionen start */
+/* styling af telefon kontakt sektionen start */
 
 .telefon-kontakt {
     display: flex;
@@ -193,9 +193,9 @@ nav li {
 
 }
 
-/* Styling af telefon kontakt sektionen slut */
+/* styling af telefon kontakt sektionen slut */
 
-/* Styling af kontaktformular sektionen start */
+/* styling af kontaktformular sektionen start */
 
 #kontakformular-section {
     background-color:#41923E;
@@ -204,16 +204,16 @@ nav li {
 }
 
 
-/* Styling af kontaktformular sektionen slut */
+/* styling af kontaktformular sektionen slut */
 
-/* Styling af resterende-kontaktmuligheder sektionen start */
+/* styling af resterende-kontaktmuligheder sektionen start */
 
 #resterende-kontaktmuligheder {
     
 }
 
 
-/* Styling af resterende-kontaktmuligheder sektionen slut */
+/* styling af resterende-kontaktmuligheder sektionen slut */
 
 
 
@@ -304,7 +304,7 @@ footer {
 
 
 /* MEDIA QUERIES START */
-/* Her styles header og nav med media til mobil */
+/* her styles header og nav med media til mobil */
 @media (max-width:800px) {
 
     #proffesionel-tab {
@@ -343,9 +343,9 @@ footer {
 
 }
 
-/* Her slutter styling af header og nav med media til mobil */
+/* her slutter styling af header og nav med media til mobil */
 
-/* Media queries footer start */
+/* media queries footer start */
 @media only screen and (min-width: 768px) {
 
     .hvid-blok {
@@ -381,7 +381,7 @@ footer {
         justify-content: space-between;
     }
 }
-/* Media queries footer Slut */
+/* media queries footer Slut */
 
 
 
