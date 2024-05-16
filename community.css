@@ -1,0 +1,29 @@
+
+
+
+
+
+#banner-top-community {
+    background-image: url(img/snak-mellem-tre-mennesker.webp);
+    height: 225px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Her starter kodning af indhold til community siden */
+
+
+.event-card {
+    max-width: 280px;
+    display: flex;
+    
+}
+
+
+
+
+
+/* Her slutter kodning af indhold til community siden */
