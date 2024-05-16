@@ -1,8 +1,7 @@
-
-// Array med de tre produkter
+// søgfunktion js kode start
 let products = ['LK Fuga', 'LK Opus 66', 'LK Opus 73'];
 
-// Funktion til at vise dropdown og søge efter produkter
+
 document.getElementById('sog-ikon').addEventListener('click', function() {
     let dropdown = document.getElementById('sog-dropdown');
     if (dropdown.style.display === 'none' || dropdown.style.display === '') {
@@ -12,7 +11,7 @@ document.getElementById('sog-ikon').addEventListener('click', function() {
     }
 });
 
-// Funktion til at søge efter produkter
+
 function searchProducts() {
     let searchTerm = document.getElementById('sog-input').value.toLowerCase();
     let productFound = false;
@@ -26,20 +25,19 @@ function searchProducts() {
     displaySearchResult(productFound);
 }
 
-// Lyt efter tastetryk i søgefeltet
+
 document.getElementById('sog-input').addEventListener('keyup', function(event) {
     if (event.key === 'Enter') {
-        searchProducts(); // Hvis Enter-tasten trykkes, udløses søgefunktionen
+        searchProducts(); 
     }
 });
 
-// Funktion til at vise søgeresultater på siden
 function displaySearchResult(productFound) {
-    let searchResultsContainer = document.getElementsByClassName('search-results');
+    let searchResultsContainer = document.getElementById('search-results');
     if (productFound) {
         searchResultsContainer.textContent = 'Produktet findes.';
     } else {
         searchResultsContainer.textContent = 'Produktet findes ikke.';
     }
 }
-
+// søgfunktion js kode slut
