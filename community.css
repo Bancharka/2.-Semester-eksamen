@@ -26,6 +26,14 @@
     
 }
 
+#even-card-outer-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 80%; 
+}
+
 .event-card {
     max-width: 300px;   
     display: flex;
@@ -35,6 +43,20 @@
     box-shadow: 0px 5px 10px 5px rgba(183, 183, 183, 0.811);
     border-radius: 5px;
     margin-bottom: 30px; 
+    justify-content: space-between;
+    height: 600px;
+}
+
+.event-card h3 {
+    font-size: 17px;
+}
+
+#event-card-two {
+    display: none;
+}
+
+#event-card-three {
+    display: none;
 }
 
 .event-card img {
@@ -49,6 +71,7 @@
     color: #888787; 
     font-weight: 400;
     margin-top: 15px;
+    height: 190px;
 }
 
 #event-card-one {
@@ -64,14 +87,14 @@
 }
 
 .button-event {
-    padding: 10px 20px; 
+    padding: 10px 30px; 
     background-color: #41B4E6;
     border-radius: 5px;
     margin-top: 20px;   
     margin-bottom: 20px;
     color: white;
     font-family: "roboto";
-
+    cursor: pointer;
 }
 
 .green-buffer-event {
@@ -82,9 +105,9 @@
 }
 /* Her starter kodning til event card section */
 
+
+
 /* Her starter styling af facebook section */
-
-
 #facebook-section {
     background-color: #41923E;
     height: 660px;  
@@ -134,16 +157,12 @@
     color: white;
     margin-top: 20px;
 }
-
-
-
 /* Her slutter styling af facebook section */
 
 
 
 
 /* Her starter styling af citat section */
-
 #section-jens {
     display: flex;
     justify-content: center;
@@ -176,14 +195,6 @@
     top: 80px;  
     right: 5px; 
 }
-
-
-
-
-
-
-
-
 /* Her slutter styling af citat section */
 
 
@@ -192,3 +203,46 @@
 
 
 /* Her slutter kodning af indhold til community siden */
+@media (min-width:768px) {
+    
+    /* Top banner styling i media Q */
+    #banner-top-community {
+        height: 450px;
+    }
+    /* Top banner styling i media Q */
+
+
+    /* styling af event section MEDIA start */
+    #event-card-section {
+        flex-direction: column;
+        
+    }
+
+    #even-card-outer-box {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center; 
+    }
+
+    #event-card-one {
+        display: flex;
+        margin-top: 0px;      
+    }
+
+    #event-card-two {
+        display: flex;
+    }
+    
+    #event-card-three {
+        display: flex;
+    }
+    /* styling af event section MEDIA slut */
+
+    /* styling af facebook section MEDIA start */
+
+
+
+
+
+    /* styling af facebook section MEDIA slut */
+}
