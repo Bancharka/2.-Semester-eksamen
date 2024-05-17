@@ -114,8 +114,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-   
-
+    justify-content: center;    
 }
 
 #fb-section-billede {
@@ -204,7 +203,7 @@
 
 /* Her slutter kodning af indhold til community siden */
 @media (min-width:768px) {
-    
+
     /* Top banner styling i media Q */
     #banner-top-community {
         height: 450px;
@@ -238,8 +237,11 @@
     }
     /* styling af event section MEDIA slut */
 
-    /* styling af facebook section MEDIA start */
 
+    /* styling af facebook section MEDIA start */
+    #facebook-section {
+        
+    }
 
 
 
