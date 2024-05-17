@@ -22,6 +22,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 40px;
     
 }
 
@@ -31,7 +32,7 @@
     flex-direction: column;
     align-items: center;    
     background-color: #F7F7F7;
-    box-shadow: 0px 5px 20px rgba(183, 183, 183, 0.811);
+    box-shadow: 0px 5px 10px 5px rgba(183, 183, 183, 0.811);
     border-radius: 5px;
     margin-bottom: 30px; 
 }
@@ -48,6 +49,10 @@
     color: #888787; 
     font-weight: 400;
     margin-top: 15px;
+}
+
+#event-card-one {
+    margin-top: 20px;
 }
 
 .beskrivende-tekst-event {
@@ -133,6 +138,56 @@
 
 
 /* Her slutter styling af facebook section */
+
+
+
+
+/* Her starter styling af citat section */
+
+#section-jens {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}   
+
+#kasse-citat-jens { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#kasse-citat-jens h2 {
+    color: #3DCD58;
+}
+
+#jens-citat {
+    width: 250px;
+    margin-top: 30px;      
+}
+
+#jens-rund {
+    height: 100px;      
+    position: absolute;
+    top: 80px;  
+    right: 5px; 
+}
+
+
+
+
+
+
+
+
+/* Her slutter styling af citat section */
+
+
+
 
 
 
