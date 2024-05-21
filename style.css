@@ -301,6 +301,11 @@ nav li {
 
 .telefon-kontakt-tekst {
     padding-right:15px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 99%;
+    width: 200px;
 }
 
 /* Slideshow container */
@@ -385,6 +390,11 @@ nav li {
     #ring-nu-knap {
         display:none
     }
+
+    #ring-nu-knap-1 {
+        display: flex;
+        justify-content: center ;
+    }
 }
 
 @media (max-width: 785px) {
@@ -449,7 +459,7 @@ nav li {
 .contact form {
     padding: 0 1rem 0 1rem; 
     text-align: center;
-    width: 630px;
+   
 }
 
 form .input-box {
@@ -466,7 +476,6 @@ form .input-box {
     padding: 18px;
     background: white;
     outline: none; 
-    border: solid rgb(146, 192, 202, 0.8) ;
     border-radius: 10px;    
     font-size: 14px;  
     color: black;
@@ -538,6 +547,16 @@ form button {
     font-weight: 600;
     color: white;
     border-radius: 5px;        
+}
+
+.b2b-chat-kasser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b2b-chat-kasser p {
+    width: 200px;   
 }
 
 .kontaktmuligheder {
@@ -674,6 +693,7 @@ footer {
 
 
 /* MEDIA QUERIES START */
+
 /* her styles header og nav med media til mobil */
 @media (max-width:800px) {
 
@@ -724,6 +744,17 @@ footer {
 }
 
 /* her slutter styling af burgermenu */
+
+/* styling af kontaktformular til pc start */
+
+@media (min-width: 768px) {
+    .contact form {
+        width: 800px;   
+    }
+
+}
+
+/* styling af kontaktformular til pc slut */
 
 /* media queries footer start */
 @media only screen and (min-width: 768px) {
