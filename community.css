@@ -127,6 +127,10 @@
     padding-bottom: 20px;
 }
 
+#fb-section-billede img {
+   border-radius: 5px;
+}
+
 #fb-section-indhold {
     display: flex;
     flex-direction: column;
@@ -268,8 +272,10 @@
     
         #fb-section-billede img {
             width: 100%;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px; 
+            
         }
     
         #fb-section-p {
