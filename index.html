@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="js/medarbejder_slide.js" defer></script>
     <script src="sog-funktion.js" defer></script>
+    <script src="js/burgermenu.js" defer></script>
 </head>
 
 <body>
@@ -54,19 +55,33 @@
 
             </nav>
 
- <!-- soegefelt starter  -->
- <div id="header-ikoner">
-    <img src="img/ikoner/soeg-ikon.png" alt="Søge ikon" id="sog-ikon">
-    <img id="profil-ikon" src="img/ikoner/mit-lk-ikon.png" alt="Profil ikon">
-</div>
+            <!-- soegefelt og burgermenu starter  -->
 
-<div id="sog-dropdown" class="dropdown-kontainer">
-    <input type="text" id="sog-input" class="search-input" placeholder="Søg...">
-    <div id="search-results" class="search-results"></div>
-</div>
-</div>
+            <section id="header-ikoner">
 
-<!-- soegefelt starter  -->
+                <div class="ikoner-row">
+                    <img src="img/ikoner/soeg-ikon.png" alt="Søge ikon" id="sog-ikon">
+                    <img id="profil-ikon" src="img/ikoner/mit-lk-ikon.png" alt="Profil ikon">
+                    <div id="burger-ikon" onclick="openNav()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+
+                <div id="sog-dropdown" class="dropdown-kontainer">
+                    <input type="text" id="sog-input" class="search-input" placeholder="Søg...">
+                    <div id="search-results" class="search-results"></div>
+                </div>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
+                
+            </section>
+
+            <!-- soegefelt og burgermenu slut  -->
+
     </header>
 
     <section id="banner-top">
@@ -75,6 +90,7 @@
         <!-- <img id="banner-billede-sikkerhedsvest" src="img/installation_el_to_mand-copy.png" alt=""> -->
 
     </section>
+
  <!-- header slut -->
 
     <section class="telefon-section">

@@ -134,6 +134,11 @@ nav li {
     margin-right: 8px;
 }
 
+.ikoner-row {
+    display: flex;
+    flex-direction: row;
+}
+
 /* her slutter header */
 
 /* søg funktion start */
@@ -168,6 +173,67 @@ nav li {
     color: white;
 }
 /* søg funktion slut */
+
+/* burgermenu starter her */
+
+#burger-ikon {
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    background-color: #3DCD58; 
+    border-radius: 50%; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#burger-ikon div {
+    width: 20px; 
+    height: 3px; 
+    background-color: white; 
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #3dcd59;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: "roboto";
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #0c9734;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-family: "roboto";
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* burgermenu slutter her */
 
 /* her starter banner i top */
 
@@ -557,9 +623,18 @@ footer {
 
 /* her slutter styling af header og nav med media til mobil */
 
+/* her starter en media query som gør at burgermenuen ikke vises i stor skærm */
+
+@media (min-width: 768px) {
+    #burger-ikon {
+        display: none; /* Skjul burgermenu på større skærme */
+    }
+}
+
+/* her slutter styling af burgermenu */
+
 /* media queries footer start */
 @media only screen and (min-width: 768px) {
-
     .hvid-blok {
         clip-path: ellipse(50% 12% at 50% 2%);  
     }
