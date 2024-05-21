@@ -194,6 +194,13 @@
     top: 80px;  
     right: 5px; 
 }
+
+@media (min-width:768px) {
+    #jens-rund {
+        display: none;
+    }
+}
+
 /* Her slutter styling af citat section */
 
 
