@@ -300,7 +300,7 @@ nav li {
 }
 
 .telefon-kontakt-tekst {
-    padding-right:40px;
+    padding-right:15px; 
 }
 
 /* Slideshow container */
@@ -427,6 +427,99 @@ nav li {
     height: 500px;
     margin-top: 50px;
 }
+
+/* Kontaktformular start */ 
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #41923e ;
+    height: auto;
+    padding-bottom: 30px;  
+    margin-top: 40px;        
+}
+  
+.contact h2 {
+    color: white;
+    margin-top: 1rem;
+}
+
+
+.contact form {
+    padding: 0 1rem 0 1rem; 
+    text-align: center;
+    width: 630px;
+}
+
+form .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box .input-field {
+    width: 48.5%;
+}
+
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background: white;
+    outline: none; 
+    border: solid rgb(146, 192, 202, 0.8) ;
+    border-radius: 10px;    
+    font-size: 14px;  
+    color: black;
+    margin: 12px 0;
+    font-family: "roboto";
+}
+
+.field.error .item {
+    border-color: red;
+}
+
+
+.field .error-txt {
+    font-size: 14px;
+    color: #ffa20c;
+    text-align: left;
+    margin: -5px 0 10px;
+    display: none;
+    font-family: "roboto";
+}
+
+.field.error .error-txt {
+    display: block;
+}
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+
+form button {
+    padding: 12px 32px;
+    background: #41B4E6;    
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s;
+    font-family: "roboto";
+}
+
+.friviilig form button:hover {
+    box-shadow: none;
+}
+  
+/* Kontaktformular slut*/ 
 
 
 /* styling af kontaktformular sektionen slut */

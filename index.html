@@ -137,10 +137,42 @@
 
     </section>
 
-    <section id="kontakformular-section">
+    <section id="kontaktscroll" class="contact">
+        <h2>Kontakt os her</h2>   
 
+        <form  action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Fulde navn" id="navn" class="item" autocomplete="off">
+                    <div class="error-txt">Fulde navn kan ikke være blank</div>
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Email" id="email" class="item" autocomplete="off">
+                    <div class="error-txt email">Email kan ikke være blank</div>
+                </div>
+            </div>
 
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Telefon nr." id="telefon" class="item" autocomplete="off">
+                    <div class="error-txt">Telefon nummer kan ikke være blank</div>
+                </div>
+                <div class="input-field field"> 
+                    <input type="text" placeholder="Firma navn" id="emne" class="item" autocomplete="off">
+                    <div class="error-txt">Emne kan ikke være blank</div>   
+                </div>
+            </div>
+            
+            <div class="textarea-field field">
+                <textarea name="error" id="besked" cols="30" rows="10" placeholder="Skriv her hvad henvendelsen drejer sig om" class="item" autocomplete="off"></textarea>
+                <div class="error-txt">Besked kan ikke være blank</div>
+            </div>
+
+            <button type="submit">Send Besked</button>
+        </form>
     </section>
+
+    
 
     <section id="resterende-kontaktmuligheder">
         <div class="kontaktmuligheder">
@@ -247,6 +279,8 @@
     </footer>
     <!-- Footer slut  -->
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="contactform.js"></script>
 </body>
 </html>
