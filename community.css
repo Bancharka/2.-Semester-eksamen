@@ -23,7 +23,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 40px;
-    
+    margin-bottom: 60px;
 }
 
 #even-card-outer-box {
@@ -47,9 +47,14 @@
     height: 600px;
 }
 
+#event-card-section h2 {
+    color: #3DCD58;
+}
+
 .event-card h3 {
     font-size: 17px;
 }
+
 
 #event-card-two {
     display: none;
@@ -64,7 +69,8 @@
 }   
 
 .event-card h4 {
-    color: #888787; 
+    color: #c6c0c0; 
+    font-family: "roboto";
 }
 
 .event-card p {
@@ -81,7 +87,7 @@
 .beskrivende-tekst-event {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:flex-start;
     max-width: 250px;
     margin-top: 5px;
 }
@@ -110,20 +116,18 @@
 /* Her starter styling af facebook section */
 #facebook-section {
     background-color: #41923E;
-    height: 660px;  
+    height: auto;  
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
 }
 
 #fb-section-billede {
-    height: 300px;
     display: flex;
     align-items: center;
-    color: red;
-    font-weight: 900;
-    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #fb-section-indhold {
@@ -133,6 +137,7 @@
     max-width: 400px;
     justify-content: center;
     text-align: center;
+    padding: 50px;
 }
 
 #fb-section-indhold h2 {
@@ -146,7 +151,6 @@
 #fb-section-p p {
     text-align: start;
     color: white;
-    font-weight: 400;
 }
 
 #facebook-section-knap {
@@ -154,8 +158,13 @@
     background-color: #41B4E6;
     font-family: "roboto";
     color: white;
-    margin-top: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+
+
 /* Her slutter styling af facebook section */
 
 
@@ -192,14 +201,19 @@
     height: 100px;      
     position: absolute;
     top: 80px;  
-    right: 5px; 
+    right: 30px; 
 }
 
-@media (min-width:768px) {
-    #jens-rund {
-        display: none;
-    }
+#jens-stor {
+    width: auto;      
+    position: relative; 
+    margin-top: 80px;
+    border-radius:5px;
 }
+
+
+
+
 
 /* Her slutter styling af citat section */
 
@@ -211,14 +225,14 @@
 /* Her slutter kodning af indhold til community siden */
 @media (min-width:768px) {
 
-    /* Top banner styling i media Q */
+/* Top banner styling i media Q */
     #banner-top-community {
         height: 450px;
     }
     /* Top banner styling i media Q */
 
 
-    /* styling af event section MEDIA start */
+/* styling af event section MEDIA start */
     #event-card-section {
         flex-direction: column;
         
@@ -242,16 +256,55 @@
     #event-card-three {
         display: flex;
     }
-    /* styling af event section MEDIA slut */
-
-
-    /* styling af facebook section MEDIA start */
-    #facebook-section {
-        
-    }
-
-
-
-
-    /* styling af facebook section MEDIA slut */
 }
+/* styling af event section MEDIA slut */
+
+
+/* styling af facebook section MEDIA start */
+@media (min-width: 768px) {
+        #fb-section-indhold {
+            max-width: 80%;
+        }
+    
+        #fb-section-billede img {
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    
+        #fb-section-p {
+            max-width: 93%;
+        }
+    
+}
+
+/* styling af facebook section MEDIA slut */
+
+
+/* styling af citat section MEDIA start */
+@media (min-width:768px) {
+    #jens-rund {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    #kasse-citat-jens {
+        padding-right: 100px ;
+    }
+}
+
+
+@media (max-width:767px) {
+    #jens-stor {
+        display: none;
+    }
+}
+
+@media (min-width:768px) {
+    #section-jens {
+        margin-left: 30px;
+        margin-right:30px;
+    }
+}
+/* styling af citat section MEDIA slut */
