@@ -93,7 +93,12 @@
     color: white;
     font-family: "roboto";
     cursor: pointer;
+    transition: 0.3s ease;
 }
+
+.button-event:hover {
+    box-shadow: 5px 10px 15px #888888;
+  }
 
 .green-buffer-event {
     width: 100%;
@@ -153,9 +158,12 @@
     margin-top: 40px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
-
+#facebook-section-knap:hover {
+    box-shadow: 5px 10px 15px #00000061;
+  }
 
 /* Her slutter styling af facebook section */
 

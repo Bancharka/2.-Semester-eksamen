@@ -279,7 +279,6 @@ nav li {
 .telefon-kontakt a {
     padding: 10px 30px 10px 30px;   
     background-color: #626469;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.292);
     font-family: "roboto";
     font-weight: 600;
     color: white;
@@ -297,7 +296,7 @@ nav li {
     justify-content: center;
     margin-top: 30px;
     cursor: pointer;
-    transition: 0.6s ease;
+    transition: 0.3s ease;
 }
 
 .telefon-kontakt-tekst {
@@ -396,24 +395,25 @@ nav li {
 
 #ring-nu-knap a {
     background-color: #41B4E6;
+    transition: 0.3s ease;
+    cursor: pointer;
     
 }
 
-#ring-nu-knap-1{
-transition: 0.6s ease;
-}
 
 #ring-nu-knap-1 a {
     background-color: #41B4E6;
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
 #ring-nu-knap-1:hover a {
-    background-color: #41923Ecc;
+    box-shadow: 5px 10px 15px #888888;
   }
 
+
 #ring-nu-knap:hover a {
-    background-color: #41923Ecc;
+    box-shadow: 5px 10px 15px #888888;
   }
 
 /* styling af telefon kontakt sektionen slut */
@@ -441,7 +441,6 @@ transition: 0.6s ease;
 .kontaktmuligheder a {
     padding: 10px 30px 10px 30px;   
     background-color: #41B4E6;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.292);
     font-family: "roboto";
     font-weight: 600;
     color: white;
@@ -462,11 +461,11 @@ transition: 0.6s ease;
     margin-bottom: 20px;
     cursor: pointer;
     position: relativ;
-    transition: 0.6s ease;
+    transition: 0.3s ease;
 }
 
 #kontaktmuligheder-knap:hover a {
-    background-color: #41923Ecc;
+    box-shadow: 5px 10px 15px #888888;
   }
 
 

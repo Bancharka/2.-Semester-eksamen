@@ -7,7 +7,6 @@
 .kontaktmuligheder a {
     padding: 10px 30px 10px 30px;   
     background-color: #41B4E6;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.292);
     font-family: "roboto";
     font-weight: 600;
     color: white;
@@ -22,17 +21,17 @@
     margin: auto;
 }
 
-#kontaktmuligheder-knap {
+#kontaktmuligheder-knap a {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     cursor: pointer;
     position: relativ;
-    transition: 0.6s ease;
+    transition: 0.3s ease;
 }
 
 #kontaktmuligheder-knap:hover a {
-    background-color: #41923Ecc;
+    box-shadow: 5px 10px 15px #888888;
   }
 
 
