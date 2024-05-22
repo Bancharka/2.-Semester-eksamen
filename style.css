@@ -274,9 +274,9 @@ nav li {
     
 }
 
-.telefon-kontakt h2 {
+.telefon-section h2 {
     color: #3DCD58;
-    text-align: center;
+    margin-bottom: 10px;
 }
 
 .telefon-kontakt a {
@@ -290,7 +290,8 @@ nav li {
 
 .telefon-section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
