@@ -23,6 +23,9 @@ p {
     color: #626469;
 }
 
+a {
+    cursor: pointer;
+}
 
 /* generel css elementer slut*/
 
@@ -271,9 +274,9 @@ nav li {
     
 }
 
-.telefon-kontakt h2 {
+.telefon-section h2 {
     color: #3DCD58;
-    text-align: center;
+    margin-bottom: 10px;
 }
 
 .telefon-kontakt a {
@@ -287,7 +290,8 @@ nav li {
 
 .telefon-section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -610,7 +614,6 @@ form button {
 /* footer start */
 footer {
     position: relative;
-    margin-top: 100px;
 }
 
 .hvid-blok {
@@ -637,8 +640,14 @@ footer {
 }
 
 .footer-container {
-    padding: 20px;
-    margin-left: 8px;
+    padding: 20px 0px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#overste-footer-container {
+    margin-top: 20px;
 }
 
 .tilmeld-footer-knap {
@@ -649,7 +658,7 @@ footer {
     text-align: center; 
     font-size: 16px; 
     font-family: "roboto";
-    margin: 4px 2px; 
+    margin: 7px 0px;    
     cursor: pointer; 
     border-radius: 6px; 
     transition: 0.3s ease;
@@ -688,6 +697,20 @@ footer {
 
 .footer-police-kasse {
     padding: 3px;
+}
+
+#sm-ikoner {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    background-color: #3DCD58;   
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+#sm-ikoner img {    
+    padding-right: 5px;
+    height: 40px;
 }
 /* footer slut */
 
@@ -770,6 +793,12 @@ footer {
 
     .footer-container{
         margin-left: 0px;
+        align-items: flex-start;
+    }
+
+    #overste-footer-container {
+        margin-top: 0px;
+        
     }
 
     #footer-telefon-mobil{
@@ -779,7 +808,7 @@ footer {
     .footer-telefon{
         display: flex;
         flex-direction: column;
-        padding-left: 21.5%;
+        padding-left: 20%;
         padding-bottom: 10px;
     }
 
@@ -789,6 +818,10 @@ footer {
         padding-left: 21.5%;
         padding-right: 21.5%;
         justify-content: space-between;
+    }
+
+    #sm-ikoner {
+        justify-content: flex-end;
     }
 }
 /* media queries footer Slut */
