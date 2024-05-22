@@ -606,6 +606,33 @@ form button {
     }
 }
 
+.kontakt-icon-b2b {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    display: block; /* Bild als Block-Element darstellen */
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.kontakt-icon-salgsingenioer {
+    width: 25%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.kontakt-icon-grossist {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
 /* styling af resterende-kontaktmuligheder sektionen slut */
 
 
