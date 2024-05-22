@@ -1,8 +1,8 @@
 
 
 
-
-
+/* COMMUNITYSIDE STYLING STARTER HER! */
+/* Banner start  */
 #banner-top-community {
     background-image: url(img/snak-mellem-tre-mennesker.webp);
     height: 225px;
@@ -11,11 +11,7 @@
     background-size: cover;
     position: relative;
 }
-
-
-/* Her starter kodning af indhold til community siden */
-
-
+/* Banner slut */
 
 /* Her starter kodning til event card section */
 #event-card-section {
@@ -202,12 +198,7 @@
 #jens-citat {
     margin-bottom: 50px;
 }
-
-
-
-
-
-/* Her slutter styling af citat section */
+/* COMMUNITYSIDE STYLING SLUTTER HER! */
 
 
 
