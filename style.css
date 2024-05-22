@@ -257,11 +257,6 @@ nav li {
     background-size: cover;
 }
 
-@media (min-width: 786px) {
-    #banner-top {
-        height: 400px;
-    }
-}
 
 /* her slutter banner i top */
 
@@ -372,40 +367,7 @@ nav li {
     border-radius: 5px;
   }
 
-/* Medarbejder slideshow ved siden af tekstboks ved stoerre skaermer */
-@media (min-width: 786px) {
-    .telefon-kontakt {
-        max-width: 50%;
-        min-width: 45%;
-        display:flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
 
-    .slideshow-medarbejder-container {
-        max-width: 70%;
-        min-width: 50%;
- 
-    }
-}
-
-@media (min-width: 786px) {
-    #ring-nu-knap {
-        display:none
-    }
-
-    #ring-nu-knap-1 {
-        display: flex;
-        justify-content: center ;
-    }
-}
-
-@media (max-width: 785px) {
-    #ring-nu-knap-1 {
-        display:none
-    }
-}
 
 #ring-nu-knap a {
     background-color: #41B4E6;
@@ -585,27 +547,6 @@ form button {
   }
 
 
-@media (min-width: 786px) {
-    .kontaktmuligheder {
-        max-width: 80%;
-        display:flex;
-        flex-direction: row;
-        align-items: stretch;
-        gap:20px;
-    }
-
-    .kontaktmuligheder > div {
-        flex: 1;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-        box-sizing: border-box;
-        justify-content: space-around;
-    }
-}
-
 .kontakt-icon-b2b {
     width: 50%;
     max-width: 300px;
@@ -783,6 +724,12 @@ footer {
 
 }
 
+@media (min-width: 786px) {
+    #banner-top {
+        height: 450px;
+    }
+}
+
 /* her slutter styling af header og nav med media til mobil */
 
 /* her starter en media query som gør at burgermenuen ikke vises i stor skærm */
@@ -795,6 +742,45 @@ footer {
 
 /* her slutter styling af burgermenu */
 
+
+/* Medarbejder slideshow ved siden af tekstboks ved stoerre skaermer */
+@media (min-width: 786px) {
+    .telefon-kontakt {
+        max-width: 50%;
+        min-width: 45%;
+        display:flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .slideshow-medarbejder-container {
+        max-width: 70%;
+        min-width: 50%;
+ 
+    }
+}
+
+@media (min-width: 786px) {
+    #ring-nu-knap {
+        display:none
+    }
+
+    #ring-nu-knap-1 {
+        display: flex;
+        justify-content: center ;
+    }
+}
+
+@media (max-width: 785px) {
+    #ring-nu-knap-1 {
+        display:none
+    }
+}
+
+/* Medarbejder slideshow styling slut */
+
+
 /* styling af kontaktformular til pc start */
 
 @media (min-width: 768px) {
@@ -805,6 +791,30 @@ footer {
 }
 
 /* styling af kontaktformular til pc slut */
+
+/* media queries kontaktmuligheder start */
+@media (min-width: 786px) {
+    .kontaktmuligheder {
+        max-width: 80%;
+        display:flex;
+        flex-direction: row;
+        align-items: stretch;
+        gap:20px;
+    }
+
+    .kontaktmuligheder > div {
+        flex: 1;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        justify-content: space-around;
+    }
+}
+
+/* media queries kontaktmuligheder slut */
 
 /* media queries footer start */
 @media only screen and (min-width: 768px) {
