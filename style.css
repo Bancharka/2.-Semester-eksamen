@@ -1,6 +1,9 @@
 /* generel css elementer start */
 h1 {
-    
+    font-size: 40px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: #0c9734;
 }
 
 h2 {
@@ -241,10 +244,19 @@ nav li {
 #banner-top {
     position: relative;
     background-image: url(img/installation_el_to_mand-copy.png);
-    height: 200px;
+    height: 225px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.h1-overskrift-banner {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.578);
+    padding: 5px 15px;
+    top: 100px;
+    left: 35px;
+    border-radius: 5px;
 }
 /* her slutter banner i top */
 
@@ -894,9 +906,23 @@ footer {
 
 @media (min-width: 786px) {
     #banner-top {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1300px) {
+    #banner-top {
         height: 450px;
     }
 }
+@media (min-width: 817px) {
+    .h1-overskrift-banner {
+        padding: 15px 30px;
+        top: 200px;
+        left: 150px;
+    }
+}
+
 /* her slutter styling af header og nav med media til mobil */
 
 /* her starter en media query som gør at burgermenuen ikke vises i stor skærm */
@@ -965,7 +991,7 @@ footer {
 /* styling af kontaktformular til pc slut */
 
 /* media queries kontaktmuligheder start */
-@media (min-width: 786px) {
+@media (min-width: 920px) {
     .kontaktmuligheder {
         max-width: 80%;
         display:flex;
