@@ -1,10 +1,10 @@
 let menuOptions = [
-  { title: "PRODUKTER", url: "https://www.lk.dk/produkter/"},
-  { title: "VIDEN OG INSPIRATION", url: "https://www.lk.dk/professionel/viden-og-inspiration/erhvervsbyggeri/"},
-  { title: "MILJØ OG KLIMA", url: "https://www.lk.dk/om-os/miljo-klima/"},
+  { title: "PRODUKTER", url: "#"},
+  { title: "VIDEN OG INSPIRATION", url: "#"},
+  { title: "MILJØ OG KLIMA", url: "#"},
   { title: "SUPPORT", url: "index.html"},
   { title: "COMMUNITY", url: "community.html"},
-  { title: "OM OS", url:"https://www.lk.dk/om-os/"},
+  { title: "OM OS", url:"#"},
 ];
 
 function openNav() {
