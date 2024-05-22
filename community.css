@@ -175,44 +175,32 @@
 
 
 /* Her starter styling af citat section */
-#section-jens {
+#section-jens-rasmus {
     display: flex;
     justify-content: center;
     position: relative;
+    flex-direction: column;
+    align-items: center;
 }   
 
-#kasse-citat-jens { 
+#kasse-citater { 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 300px;
-    position: relative;
-    text-align: center;
     align-items: center;
+    text-align: center;
+    max-width: 80%;
     margin-top: 40px;
 }
 
-#kasse-citat-jens h2 {
+#section-jens-rasmus h2 {
     color: #3DCD58;
+    margin-top: 20px;
+    text-align: center;
 }
 
 #jens-citat {
-    width: 250px;
-    margin-top: 30px;      
-}
-
-#jens-rund {
-    height: 100px;      
-    position: absolute;
-    top: 80px;  
-    right: 30px; 
-}
-
-#jens-stor {
-    width: auto;      
-    position: relative; 
-    margin-top: 80px;
-    border-radius:5px;
+    margin-bottom: 50px;
 }
 
 
@@ -288,29 +276,28 @@
 
 
 /* styling af citat section MEDIA start */
-@media (min-width:768px) {
-    #jens-rund {
-        display: none;
+@media (min-width:1045px) {
+    #section-jens-rasmus {
+        align-items: center;
+    }
+
+    #kasse-citater {
+        flex-direction: row;
+        max-width: 520px;
+    }
+
+    #jens-citat {
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    #rasmus-citat {
+        padding-left: 10px;
+        padding-right: 20px;
     }
 }
 
-@media (min-width:768px) {
-    #kasse-citat-jens {
-        padding-right: 100px ;
-    }
-}
 
 
-@media (max-width:767px) {
-    #jens-stor {
-        display: none;
-    }
-}
-
-@media (min-width:768px) {
-    #section-jens {
-        margin-left: 30px;
-        margin-right:30px;
-    }
-}
 /* styling af citat section MEDIA slut */
