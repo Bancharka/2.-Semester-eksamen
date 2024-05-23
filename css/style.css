@@ -256,7 +256,7 @@ nav li {
 }
 #banner-top {
     position: relative;
-    background-image: url(/img/installation-el-to-mand-copy.png);
+    background-image: url(../img/installation-el-to-mand-copy.png);
     height: 225px;
     background-repeat: no-repeat;
     background-position: center;
@@ -486,12 +486,12 @@ form button {
     letter-spacing: 1px;
     font-weight: 700;
     cursor: pointer;
-    transition: .5s;
+    transition: 0.3s ease;
     font-family: "roboto";
 }
 
-.friviilig form button:hover {
-    box-shadow: none;
+form button:hover {
+    box-shadow: 5px 10px 15px #16161685;
 }
 /* styling af kontaktformular sektionen slut */
 
@@ -508,7 +508,8 @@ form button {
     font-family: "roboto";
     font-weight: 600;
     color: white;
-    border-radius: 5px;        
+    border-radius: 5px; 
+    transition: 0.3s ease;       
 }
 
 .b2b-chat-kasser {
@@ -529,16 +530,16 @@ form button {
     margin: auto;
 }
 
-#kontaktmuligheder-knap {
+.kontaktmuligheder-knap {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     cursor: pointer;
-    position: relativ;
-    transition: 0.3s ease;
+    position: relative;
+    transition: 0.3s ease; 
 }
 
-#kontaktmuligheder-knap:hover a {
+.kontaktmuligheder-knap:hover a {
     box-shadow: 5px 10px 15px #888888;
 }
 
@@ -682,7 +683,7 @@ footer {
 /* COMMUNITYSIDE STYLING STARTER HER! */
 /* banner start  */
 #banner-top-community {
-    background-image: url(/img/snak-mellem-tre-mennesker.webp);
+    background-image: url(../img/snak-mellem-tre-mennesker.webp);
     height: 225px;
     background-repeat: no-repeat;
     background-position: center;
