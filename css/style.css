@@ -125,6 +125,14 @@ nav li {
     
 }
 
+#nav-bar-highlight {
+    text-decoration: underline;
+}
+
+.nav-bar-usable {
+    font-weight: 700;
+}
+
 #header-ikoner {
     display: flex;
     flex-direction: row;
@@ -132,9 +140,14 @@ nav li {
     margin-right: 20px;   
 }
 
+#sog-ikon {
+    cursor: pointer;
+}
+
 #header-ikoner img {
     max-height: 40px;
     margin-right: 8px;
+    
 }
 
 .ikoner-row {
