@@ -430,9 +430,10 @@ form .input-box {
     outline: none; 
     border-radius: 10px;    
     font-size: 14px;  
-    color: black;
+    color: rgba(0, 0, 0, 0.425);
     margin: 12px 0;
     font-family: "roboto";
+    border: solid;
 }
 
 .field.error .item {
