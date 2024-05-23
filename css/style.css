@@ -283,7 +283,7 @@ nav li {
 
 .telefon-section h2 {
     color: #3DCD58;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -416,8 +416,8 @@ nav li {
   
 .contact h2 {
     color: white;
-    margin-top: 30px;
-    margin-bottom: 18px;
+    margin-top: 25px;
+    margin-bottom: 13px;      
 }
 
 .contact form {
@@ -710,16 +710,15 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
     margin-bottom: 60px;
+    margin-top: 20px;
 }
 
 #even-card-outer-box {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
-    width: 80%; 
+    width: 85%;     
 }
 
 .event-card {
@@ -761,7 +760,7 @@ footer {
 }
 
 #event-card-one {
-    margin-top: 20px;
+    margin-top: 20px;       
 }
 
 .beskrivende-tekst-event {
@@ -826,7 +825,7 @@ footer {
     max-width: 400px;
     justify-content: center;
     text-align: center;
-    padding: 50px;
+    padding: 25px;  
 }
 
 #fb-section-indhold h2 {
@@ -876,13 +875,14 @@ footer {
     align-items: center;
     text-align: center;
     max-width: 80%;
-    margin-top: 40px;
+    margin-top: 20px;   
 }
 
 #section-jens-rasmus h2 {
     color: #3DCD58;
-    margin-top: 20px;
+    margin-top: 25px;   
     text-align: center;
+    max-width: 200px;
 }
 
 #jens-citat {
@@ -1007,7 +1007,7 @@ footer {
 
 @media (min-width: 786px) {
     .telefon-section h2 {
-        margin-top: -30px;
+        margin-top: -20px;
         z-index:1;
     }
     h2 {
@@ -1042,7 +1042,7 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 25px;   
         box-sizing: border-box;
         justify-content: space-around;
     }
@@ -1109,7 +1109,12 @@ footer {
     /* styling af event section MEDIA start */
     #event-card-section {
         flex-direction: column;
+        margin-top: 0px;
         
+    }
+
+    #event-card-section h2 {
+        margin-bottom: 20px;
     }
 
     #even-card-outer-box {
@@ -1149,7 +1154,7 @@ footer {
     }
 
     #fb-section-p {
-        max-width: 93%;
+        max-width: 1000px;
     }
     
 }
@@ -1176,6 +1181,10 @@ footer {
     #rasmus-citat {
         padding-left: 10px;
         padding-right: 20px;
+    }
+    
+    #section-jens-rasmus h2 {
+        max-width: 100%;
     }
 }
 /* styling af citat section MEDIA slut */
