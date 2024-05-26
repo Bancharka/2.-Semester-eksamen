@@ -1,12 +1,15 @@
 // søgfunktion js kode start
-let products = ['LK Fuga', 'LK Opus 66', 'LK Opus 73'];
+let products = ['lk fuga', 'lk opus 66', 'lk opus 73'];
 
 
 document.getElementById('sog-ikon').addEventListener('click', function() {
     let dropdown = document.getElementById('sog-dropdown');
+   
     if (dropdown.style.display === 'none' || dropdown.style.display === '') {
         dropdown.style.display = 'block';
-    } else {
+    } 
+    
+    else {
         dropdown.style.display = 'none';
     }
 });
