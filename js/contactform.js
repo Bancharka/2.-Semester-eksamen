@@ -47,12 +47,12 @@ function checkInputs() {
             }
         });
     }
+
     if (items[1].value != "") {
         checkEmail();
     }
-    
 
-    items[1].addEventListener("keyup", () => { 
+     items[1].addEventListener("keyup", () => { 
         checkEmail();
     })
 
